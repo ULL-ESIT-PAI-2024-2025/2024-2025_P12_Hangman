@@ -1,5 +1,5 @@
 {
-  "display": "Configuration for Poker Game",
+  "display": "Configuration for Hangman Game",
   "compilerOptions": {
     "target": "es2022",
     "module": "commonjs",

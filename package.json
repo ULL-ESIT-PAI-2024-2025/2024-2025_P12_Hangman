@@ -1,7 +1,7 @@
 {
-  "name": "Práctica 11 de PAI",
+  "name": "Práctica 12 de PAI",
   "version": "1.0.0",
-  "description": "Poker Game",
+  "description": "Hangman Game",
   "private": true,
   "main": "index.js",
   "scripts": {
