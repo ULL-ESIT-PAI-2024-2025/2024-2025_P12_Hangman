@@ -1,4 +1,4 @@
-# Práctica 11. Programación Gráfica Orientada a Eventos. El juego del Ahorcado.
+# Práctica 12. Programación Gráfica Orientada a Objetos y guiada por eventos. El juego del Ahorcado.
 ### Factor de ponderación: 10 
 
 ### Objetivos
@@ -77,22 +77,23 @@ En esta práctica se propone desarrollar una aplicación web SPA
 diseñada conforme al patrón Modelo Vista Controlador, que implemente el conocido juego del
 [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
 
-El juego del ahorcado, conocido en inglés como *Hangman*, es un popular juego de adivinanza que se juega 
+El juego, conocido en inglés como *Hangman*, es un popular juego de adivinanza que se juega 
 habitualmente con papel y lápiz, aunque también existen versiones digitales, como la que se propone realizar.
 
 El objetivo del juego es adivinar una palabra secreta que el ordenador ha elegido, 
 antes de que se complete un dibujo de un ahorcado.
 
-El ordenador elige una palabra y la escribe en forma de guiones casillas en blanco, donde cada casilla representa 
+El ordenador elige una palabra y la escribe en forma de casillas en blanco, donde cada casilla representa 
 una letra de la palabra. 
-Por ejemplo, si la palabra es "goat", se representaría como "_ _ _ _" donde cada guión representa una casilla
+Por ejemplo, si la palabra es "goat", se representaría como "_ _ _ _" donde cada guión corresponde con una casilla
 en blanco.
-El jugador humano intenta adivinar la palabra, letra por letra. 
+
+El jugador intenta adivinar la palabra, letra por letra. 
 Por cada letra que adivina, el ordenador debe revelar su posición en la palabra si es correcta. 
 Si la letra no está en la palabra, se registra como un intento fallido.
 
 Generalmente, se permite un número limitado de intentos fallidos. 
-Cada intento fallido se representa con una parte del dibujo del ahorcado (cabeza, cuerpo, brazos, piernas, etc.). 
+Cada intento fallido se representa con una parte del dibujo del ahorcado (cabeza, tronco, brazos, etc.). 
 Si el dibujo se completa antes de que el jugador descubra la palabra, el juego termina y el ordenador gana.
 El juego puede terminar de dos maneras:
 Victoria del jugador: Si el jugador descubre todas las letras de la palabra antes de completar el dibujo del ahorcado.
@@ -100,8 +101,12 @@ Victoria del ordenador: Si el adivinador agota todos sus intentos sin adivinar l
 
 ### Interfaz gráfica del programa
 La interfaz gráfica de la aplicación a diseñar imitará la de
-[esta página](https://www.englishclub.com/esl-games/hangman/animals-easy.php)
-que se tomará como referencia.
+[esta página](https://www.englishclub.com/esl-games/hangman/animals-easy.php),
+una vez clicado el botón *START*, que se tomará como referencia.
+Su aplicación no ha de contemplar el botón de arranque, sino que al inicializarse ha de mostrar ya el juego en
+curso.
+
+También el comportamiento lógico de su aplicación debe imitar a la de referencia.
 
 Utilice libremente los elementos HTML que considere más adecuados para la interfaz gráfica de su aplicación y
 dote de estilo a esos elementos utilizando Bulma.
@@ -111,7 +116,7 @@ como las casillas correspondientes a cada una de las letras del alfabeto.
 
 Se representará gráficamente el patíbulo, la horca y el ahorcado, para lo cual se propone utilizar los ficheros
 [Hangman-X.png](https://en.wikipedia.org/wiki/File:Hangman-6.png)
-(cambie X por un valor entre 1 y 6) para obtener los 6 ficheros que componen la secuencia del juego).
+(cambie X por un valor entre 1 y 6) para obtener los 6 ficheros que corresponden con la secuencia del juego).
 Si lo desea, puede Ud. utilizar otras imágenes diferentes de esta propuesta.
 
 ### Presentación de resultados
@@ -146,7 +151,7 @@ Utilice lo que haya aprendido de CSS para dotar de estilo propio a las páginas 
 desarrolle, aunque el CSS es el aspecto de menor importancia en este ejercicio.
 
 ## Referencias
-* [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_(juego)#:~:text=El%20ahorcado%20(tambi%C3%A9n%20llamado%20colgado,un%20cierto%20n%C3%BAmero%20de%20oportunidades.)
+* [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
 * [Bulma](https://bulma.io/)
 * [TypeDoc](https://typedoc.org/)
 * [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
