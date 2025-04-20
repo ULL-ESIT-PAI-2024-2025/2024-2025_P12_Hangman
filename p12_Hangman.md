@@ -1,6 +1,9 @@
 # Práctica 12. Programación Gráfica Orientada a Objetos y guiada por eventos. El juego del Ahorcado.
 ### Factor de ponderación: 10 
 
+### Examen de la asignatura
+Tenga en cuenta que esta es la primera de las dos prácticas que componen el examen final de la asignatura.
+
 ### Objetivos
 Los objetivos de esta tarea son poner en práctica:
 * El uso del framework Bulma para dotar de estilo a una aplicación web simple.
@@ -73,7 +76,6 @@ mientras que en el segundo ha de incluir un enlace (véase el apartado *Presenta
 ### El juego del Ahorcado
 En esta práctica se propone desarrollar una aplicación web SPA 
 [(Single Page Application)](https://en.wikipedia.org/wiki/Single-page_application)
-`hangman.ts`
 diseñada conforme al patrón Modelo Vista Controlador, que implemente el conocido juego del
 [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
 
