@@ -75,7 +75,7 @@ En esta práctica se propone desarrollar una aplicación web SPA
 [(Single Page Application)](https://en.wikipedia.org/wiki/Single-page_application)
 `hangman.ts`
 diseñada conforme al patrón Modelo Vista Controlador, que implemente el conocido juego del
-[Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_(juego)#:~:text=El%20ahorcado%20(tambi%C3%A9n%20llamado%20colgado,un%20cierto%20n%C3%BAmero%20de%20oportunidades.)
+[Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
 
 El juego del ahorcado, conocido en inglés como *Hangman*, es un popular juego de adivinanza que se juega 
 habitualmente con papel y lápiz, aunque también existen versiones digitales, como la que se propone realizar.
