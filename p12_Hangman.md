@@ -6,12 +6,13 @@ Tenga en cuenta que esta es la primera de las dos prácticas que componen el exa
 
 ### Objetivos
 Los objetivos de esta tarea son poner en práctica:
-* El uso del framework Bulma para dotar de estilo a una aplicación web simple.
+* Integración continua para un proyecto de prácticas de la asignatura
 * La arquitectura Modelo Vista Controlador
 * Conceptos de Programación orientada a eventos en TypeScript.
 * Conceptos de Programación Gráfica en TypeScript usando la API Canvas.
 * Metodologías y conceptos de Programación Orientada a Objetos en TypeScript.
 * Principios y Buenas prácticas de programación Orientada a Objetos.
+* El uso del framework Bulma para dotar de estilo a una aplicación web simple.
 * El uso de elementos HTML.
 
 ### Rúbrica de evaluacion del ejercicio
@@ -73,6 +74,27 @@ Incluya en ese fichero dos apartados, Building and Running the code y Live Demo.
 En el primero de ellos ha de explicar en detalle cómo a partir de clonar su repo público ha de compilarse, ejecutarse y desplegarse su aplicación, 
 mientras que en el segundo ha de incluir un enlace (véase el apartado *Presentación de resultados de este documento*) a la URL pública donde deberá estar disponible su aplicación.
 
+### Integración Continua
+Estudie el trabajo expuesto en clase sobre
+[Integración Continua](https://github.com/ULL-ESIT-PAI-2024-2025/2024-2025-pai-ci-2024-2025-pai-ci.git)
+para recordar cómo utilizar GitHub Actions para configurar un flujo de trabajo para su proyecto.
+
+Incluya en su proyecto un fichero de configuración del flujo que permita automatizar la ejecución de las
+diferentes tareas del proyecto.
+
+Incluya en su flujo de trabajo al menos las siguientes etapas:
+* Análisis estático de su código utilizando ESLint. Utilice 
+[typescript-eslint](https://typescript-eslint.io/)
+para habilitar el análisis de código TypeScript en ESLint y configure el linter para que analice la
+conformidad de su código con la Guía de Estilo de Google para TS.
+* Generación de la documentación de su proyecto utilizando
+[TypeDoc](https://typedoc.org/)
+* Despliegue de su aplicación en una 
+[GitHub Page](https://pages.github.com/) 
+asociada con su repo de trabajo.
+
+Si hay alguna otra tarea que resulte de interés para su desarrollo, inclúyala igualmente en el flujo.
+
 ### El juego del Ahorcado
 En esta práctica se propone desarrollar una aplicación web SPA 
 [(Single Page Application)](https://en.wikipedia.org/wiki/Single-page_application)
@@ -122,35 +144,14 @@ Se representará gráficamente el patíbulo, la horca y el ahorcado, para lo cua
 Si lo desea, puede Ud. utilizar otras imágenes diferentes de esta propuesta.
 
 ### Presentación de resultados
-Se propone que, siguiendo el ejemplo de personalización de Bulma para su adaptación a la imagen corporativa de
-la ULL que se expuso en clase, personalice los estilos de todas sus páginas para que tengan el aspecto de las
-*páginas ULL*.
-La visualización de la ejecución del programa se realizará a través de una página web alojada
-en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
+Configure una página GitHub asociada con su repositorio de trabajo que sirva de índice para estas otras
+páginas de su proyecto:
+* La aplicación *Hangman* que habrá desarrollado. Esa aplicación se configurará como una SPA.
+* La documentación de la aplicación.
+* El diagrama UML de las clases utilizadas en la aplicación.
+* Una página que albergará el ejercicio que se le pedirá realizar en la sesión de evaluación de esta práctica.
 
-[1] `http://10.6.129.123:8080/einstein-albert-hangman.html`
-
-en la que se presentarán las manos de la partida de poker.
-Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página
-y la dirección IP anterior por la correspondiente a su máquina IaaS.
-
-Diseñe asimismo otra página HTML simple 
-
-[2] `http://10.6.129.123:8080/index.html`
-
-que sirva de "página índice" para los ejercicios de la sesión de evaluación de la práctica.
-La página [1] será uno de los enlaces de [2] y a su vez [1] tendrá un enlace "Home" que apunte a [2].
-Enlace también en la página índice [2] la página que contiene la documentación de su proyecto generada con
-Typedoc.
-
-Incluya una tercera página
-
-[3] `http://10.6.129.123:8080/uml.html`
-
-que muestre el diagrama UML de las clases que intervienen en su aplicación.
-
-Utilice lo que haya aprendido de CSS para dotar de estilo propio a las páginas HTML que
-desarrolle, aunque el CSS es el aspecto de menor importancia en este ejercicio.
+Todas estas páginas deberán tener un estilo personalizado que imite el aspecto (tipografía, colores) de las *páginas ULL*.
 
 ## Referencias
 * [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
