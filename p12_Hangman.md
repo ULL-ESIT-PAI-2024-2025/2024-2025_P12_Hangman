@@ -15,20 +15,20 @@ Los objetivos de esta tarea son poner en práctica:
 * El uso del framework Bulma para dotar de estilo a una aplicación web simple.
 * El uso de elementos HTML.
 
-### Revise cuidadosamente los elementos de esta rúbrica puesto que será la que se utilice para la evaluación
-de la práctica
+### Revise cuidadosamente los elementos de esta rúbrica puesto que será la que se utilice para la evaluación de la práctica
 
 1. Tanto el ejercicio propuesto para esta práctica como los que se propondrán en la sesión de evaluación
    han de entregarse en la correspondiente tarea del aula virtual a través de un repositorio privado de
    [GitHub](https://github.com/)
 1. Su proyecto ha de incluir un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una 
    [página GitHub](https://pages.github.com/)
+   asociada con el repositorio del proyecto
 1. Su proyecto ha de incluir un fichero de configuración del flujo de desarrollo que permita automatizar mediante 
    [GitHub Actions](https://github.com/features/actions)
    la ejecución de las diferentes tareas del proyecto
 1. La aplicación debe adherirse al paradigma de programación orientada a objetos e implementarse de acuerdo con la arquitectura MVC, 
-   aplicando fundamentos, principios y buenas prácticas de la OOP
-1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto en una página GitHub de su repositorio de trabajo
+   aplicando fundamentos, principios y buenas prácticas de OOP
+1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto a través de una página GitHub del proyecto
 1. El comportamiento de su aplicación deberá ajustarse a lo descrito en este documento
 1. Los estilos de su aplicación han de implementarse utilizando el Framework
    [Bulma](https://bulma.io/)
