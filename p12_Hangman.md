@@ -16,7 +16,7 @@ Los objetivos de esta tarea son poner en práctica:
 * El uso de elementos HTML.
 
 ### Rúbrica de evaluacion de la práctica
-** Revise cuidadosamente esta rúbrica puesto que será la que se utilice para la evaluación del examen de la asignatura**
+**Revise cuidadosamente esta rúbrica puesto que será la que se utilice para la evaluación del examen de la asignatura**
 
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
