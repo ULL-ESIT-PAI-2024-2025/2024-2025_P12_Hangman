@@ -21,15 +21,14 @@ Los objetivos de esta tarea son poner en práctica:
 1. Tanto el ejercicio propuesto para esta práctica como los que se propondrán en la sesión de evaluación
    han de entregarse en la correspondiente tarea del aula virtual a través de un repositorio privado de
    [GitHub](https://github.com/)
+1. Su proyecto ha de incluir un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una 
+   [página GitHub](https://pages.github.com/)
 1. Su proyecto ha de incluir un fichero de configuración del flujo de desarrollo que permita automatizar mediante 
    [GitHub Actions](https://github.com/features/actions)
    la ejecución de las diferentes tareas del proyecto
-1. Su proyecto ha de incluir un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una página GitHub.
 1. La aplicación ha de seguir el paradigma de orientación a objetos e implementarse conforme a la arquitectura MVC, poniendo en práctica 
    los fundamentos, principios y buenas prácticas de la OOP
-1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto en una 
-   [página GitHub](https://pages.github.com/)
-   de su repositorio de trabajo
+1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto en una página GitHub de su repositorio de trabajo
 1. El comportamiento de su aplicación deberá ajustarse a lo descrito en este documento
 1. Los estilos de su aplicación han de implementarse utilizando el Framework
    [Bulma](https://bulma.io/)
@@ -42,12 +41,11 @@ Los objetivos de esta tarea son poner en práctica:
    [Jest](https://jestjs.io/)
    para alguno(s) de los métodos que se desarrollen para su aplicación
 1. Mediante el uso de 
-   [ESLint](https://eslint.org/)
+   [typescript-eslint](https://typescript-eslint.io/)
    se comprobará que el código de su aplicación se adhiere a las reglas de las Guías de Estilo de Google para 
    [TypeScript](https://google.github.io/styleguide/tsguide.html)
    y
    [JavaScript](https://google.github.io/styleguide/jsguide.html)
-
 
 ### Indicaciones de caracter general
 * La aplicación que desarrolle ha de ser orientada a objetos y conforme a la arquitectura MVC.
