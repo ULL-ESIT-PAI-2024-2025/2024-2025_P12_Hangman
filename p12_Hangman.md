@@ -91,7 +91,7 @@ conformidad de su código con la Guía de Estilo de Google para TS.
 [TypeDoc](https://typedoc.org/)
 * Despliegue de su aplicación en una 
 [GitHub Page](https://pages.github.com/) 
-asociada con su repo de trabajo.
+asociada con el repositorio de su proyecto.
 
 Si hay alguna otra tarea que resulte de interés para su desarrollo, inclúyala igualmente en el flujo.
 
@@ -122,6 +122,8 @@ Si el dibujo se completa antes de que el jugador descubra la palabra, el juego t
 El juego puede terminar de dos maneras:
 Victoria del jugador: Si el jugador descubre todas las letras de la palabra antes de completar el dibujo del ahorcado.
 Victoria del ordenador: Si el adivinador agota todos sus intentos sin adivinar la palabra.
+
+Utilice para su aplicación un diccionario de palabras que incluya exclusivamente nombres de animales.
 
 ### Interfaz gráfica del programa
 La interfaz gráfica de la aplicación a diseñar imitará la de
