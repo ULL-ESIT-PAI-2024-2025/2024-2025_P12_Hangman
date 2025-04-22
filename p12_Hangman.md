@@ -18,36 +18,25 @@ Los objetivos de esta tarea son poner en práctica:
 ### Rúbrica de evaluacion de la práctica
 **Revise cuidadosamente esta rúbrica puesto que será la que se utilice para la evaluación del examen de la asignatura**
 
-Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
-que se tendrán en cuenta a la hora de evaluar esta práctica:
-* Se valorará la realización de las diferentes tareas que se proponen
-* El comportamiento del programa debe ajustarse a lo descrito en este documento
-* Capacidad de la programadora de introducir cambios en el programa desarrollado
-* Se acredita conocimiento y puesta en práctica de principios y buenas prácticas de programación orientada a objetos
-* Saber corregir bugs en sus programas utilizando el depurador de Visual Studio Code
-* Deben usarse estructuras de datos adecuadas para representar los diferentes elementos que intervienen en el problema
-* Ser capaz de desarrollar programas simples en TypeScript en el entorno Linux de la VM de la asignatura usando
-  `ts-node`
-* Conocer y ser capaz de trabajar con el Framework CSS
-[Bulma](https://bulma.io/)
-* Ser capaz de generar documentación para sus programas TS utilizando
-  [TypeDoc](https://typedoc.org/)
-  y de visualizar dicha documentación en un servidor web
-* Acreditar que conoce las etiquetas de 
-  [JSDoc](https://jsdoc.app/)
-* El alumnado debe ser capaz de resolver problemas tanto en JS como en TS en la plataforma Exercism subiendo sus soluciones a la misma
-* Ser capaz de desarrollar tests unitarios para sus programas utilizando
-  [Jest](https://jestjs.io/)
-* Acreditar su capacidad para configurar y utilizar 
-  [ESLint](https://eslint.org/)
-y que es capaz de trabajar con la misma en Visual Studio Code
-* El alumnado ha de acreditar que es capaz de desarrollar programas de la plataforma Jutge
-* Se comprobará que el código que el alumnado escribe se adhiere a las reglas de las Guías de Estilo de Google para 
-[TypeScript](https://google.github.io/styleguide/tsguide.html)
-y/o
-[JavaScript](https://google.github.io/styleguide/jsguide.html)
-* Todas las prácticas realizadas hasta la fecha, incluída la que se presenta para su evaluación, se encuentran alojadas en repositorios privados de GitHub.
-* Acreditar que es capaz de editar ficheros de forma remota en su VM usando Visual Studio Code
+1. El comportamiento del programa debe ajustarse a lo descrito en este documento
+1. Se acredita conocimiento y puesta en práctica de principios y buenas prácticas de programación orientada a objetos
+1. Su proyecto contiene un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una página GitHub.
+1. Los estilos de su aplicación se implementan utilizando el Framework
+   [Bulma](https://bulma.io/)
+1. Los métodos y clases de su aplicación están convenientemente documentados utilizando etiquetas
+   [JSDoc](https://jsdoc.app/)
+   y la documentación de la misma se aloja en una página GitHub habiendo sido generada utilizando
+   [TypeDoc](https://typedoc.org/)
+1. La aplicación ha de contener tests unitarios realizados con 
+   [Jest](https://jestjs.io/)
+   para alguno(s) de los métodos que se desarrollen para su aplicación
+1. Mediante el uso de 
+   [ESLint](https://eslint.org/)
+   se comprobará que el código de su aplicación se adhiere a las reglas de las Guías de Estilo de Google para 
+   [TypeScript](https://google.github.io/styleguide/tsguide.html)
+   y/o
+   [JavaScript](https://google.github.io/styleguide/jsguide.html)
+1. Todas las prácticas realizadas hasta la fecha, incluída la que se presenta para su evaluación, se encuentran alojadas en repositorios privados de GitHub.
 
 ### Indicaciones de caracter general
 * La aplicación que desarrolle ha de ser orientada a objetos y conforme a la arquitectura MVC.
