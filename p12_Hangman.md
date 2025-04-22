@@ -18,9 +18,19 @@ Los objetivos de esta tarea son poner en práctica:
 ### Rúbrica de evaluacion de la práctica
 **Revise cuidadosamente esta rúbrica puesto que será la que se utilice para la evaluación del examen de la asignatura**
 
+1. Tanto el ejercicio propuesto para esta práctica como los que se propondrán en la sesión de evaluación
+   han de entregarse en la correspondiente tarea del aula virtual a través de un repositorio privado de
+   [GitHub](https://github.com/)
+1. Su proyecto ha de incluir un fichero de configuración del flujo de desarrollo que permita automatizar mediante 
+   [GitHub Actions](https://github.com/features/actions)
+   la ejecución de las diferentes tareas del proyecto
+1. Su proyecto ha de incluir un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una página GitHub.
+1. La aplicación ha de seguir el paradigma de orientación a objetos e implementarse conforme a la arquitectura MVC
+1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto en una 
+   [página GitHub](https://pages.github.com/)
+   de su repositorio de trabajo
+1. Ha de poner en práctica asimismo los fundamentos, principios y buenas prácticas de la OOP 
 1. El comportamiento del programa debe ajustarse a lo descrito en este documento
-1. Se acredita conocimiento y puesta en práctica de principios y buenas prácticas de programación orientada a objetos
-1. Su proyecto contiene un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una página GitHub.
 1. Los estilos de su aplicación se implementan utilizando el Framework
    [Bulma](https://bulma.io/)
 1. Los métodos y clases de su aplicación están convenientemente documentados utilizando etiquetas
@@ -36,7 +46,7 @@ Los objetivos de esta tarea son poner en práctica:
    [TypeScript](https://google.github.io/styleguide/tsguide.html)
    y/o
    [JavaScript](https://google.github.io/styleguide/jsguide.html)
-1. Todas las prácticas realizadas hasta la fecha, incluída la que se presenta para su evaluación, se encuentran alojadas en repositorios privados de GitHub.
+
 
 ### Indicaciones de caracter general
 * La aplicación que desarrolle ha de ser orientada a objetos y conforme a la arquitectura MVC.
@@ -146,6 +156,7 @@ Todas estas páginas deberán tener un estilo personalizado que imite el aspecto
 
 ## Referencias
 * [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
+* [GitHub Actions](https://github.com/features/actions)
 * [Bulma](https://bulma.io/)
 * [TypeDoc](https://typedoc.org/)
 * [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
