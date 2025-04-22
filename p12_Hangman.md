@@ -30,13 +30,14 @@ Los objetivos de esta tarea son poner en práctica:
 1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto en una 
    [página GitHub](https://pages.github.com/)
    de su repositorio de trabajo
-1. El comportamiento del programa debe ajustarse a lo descrito en este documento
-1. Los estilos de su aplicación se implementan utilizando el Framework
+1. El comportamiento de su aplicación deberá ajustarse a lo descrito en este documento
+1. Los estilos de su aplicación han de implementarse utilizando el Framework
    [Bulma](https://bulma.io/)
-1. Los métodos y clases de su aplicación están convenientemente documentados utilizando etiquetas
+1. Los métodos y clases de su aplicación estarán convenientemente documentados utilizando etiquetas
    [JSDoc](https://jsdoc.app/)
-   y la documentación de la misma se aloja en una página GitHub habiendo sido generada utilizando
+   y la documentación de la misma se generará utilizando
    [TypeDoc](https://typedoc.org/)
+   y se alojará en una página GitHub de su proyecto
 1. La aplicación ha de contener tests unitarios realizados con 
    [Jest](https://jestjs.io/)
    para alguno(s) de los métodos que se desarrollen para su aplicación
@@ -44,7 +45,7 @@ Los objetivos de esta tarea son poner en práctica:
    [ESLint](https://eslint.org/)
    se comprobará que el código de su aplicación se adhiere a las reglas de las Guías de Estilo de Google para 
    [TypeScript](https://google.github.io/styleguide/tsguide.html)
-   y/o
+   y
    [JavaScript](https://google.github.io/styleguide/jsguide.html)
 
 
