@@ -25,11 +25,11 @@ Los objetivos de esta tarea son poner en práctica:
    [GitHub Actions](https://github.com/features/actions)
    la ejecución de las diferentes tareas del proyecto
 1. Su proyecto ha de incluir un fichero `README.md` con indicaciones precisas para compilar (*build*) y desplegar su aplicación en una página GitHub.
-1. La aplicación ha de seguir el paradigma de orientación a objetos e implementarse conforme a la arquitectura MVC
+1. La aplicación ha de seguir el paradigma de orientación a objetos e implementarse conforme a la arquitectura MVC, poniendo en práctica 
+   los fundamentos, principios y buenas prácticas de la OOP
 1. La estructura de clases de su aplicación se mostrará mediante un diagrama UML expuesto en una 
    [página GitHub](https://pages.github.com/)
    de su repositorio de trabajo
-1. Ha de poner en práctica asimismo los fundamentos, principios y buenas prácticas de la OOP 
 1. El comportamiento del programa debe ajustarse a lo descrito en este documento
 1. Los estilos de su aplicación se implementan utilizando el Framework
    [Bulma](https://bulma.io/)
