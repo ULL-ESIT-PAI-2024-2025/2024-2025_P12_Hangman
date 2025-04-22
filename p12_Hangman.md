@@ -15,8 +15,8 @@ Los objetivos de esta tarea son poner en práctica:
 * El uso del framework Bulma para dotar de estilo a una aplicación web simple.
 * El uso de elementos HTML.
 
-### Rúbrica de evaluacion de la práctica
-**Revise cuidadosamente esta rúbrica puesto que será la que se utilice para la evaluación del examen de la asignatura**
+### Revise cuidadosamente los elementos de esta rúbrica puesto que será la que se utilice para la evaluación
+de la práctica
 
 1. Tanto el ejercicio propuesto para esta práctica como los que se propondrán en la sesión de evaluación
    han de entregarse en la correspondiente tarea del aula virtual a través de un repositorio privado de
