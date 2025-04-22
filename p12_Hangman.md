@@ -153,15 +153,17 @@ páginas de su proyecto:
 * El diagrama UML de las clases utilizadas en la aplicación.
 * Una página que albergará el ejercicio que se le pedirá realizar en la sesión de evaluación de esta práctica.
 
-Todas estas páginas deberán tener un estilo personalizado que imite el aspecto (tipografía, colores) de las *páginas ULL*.
+Todas estas páginas deberán tener un estilo personalizado que imite utilizando Bulma el aspecto (tipografía, colores) de las *páginas ULL*.
 
 ## Referencias
 * [Ahorcado](https://es.wikipedia.org/wiki/Ahorcado_\(juego\))
 * [GitHub Actions](https://github.com/features/actions)
+* [GitHub Pages](https://pages.github.com/)
 * [Bulma](https://bulma.io/)
 * [TypeDoc](https://typedoc.org/)
 * [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 * [ESLint](https://eslint.org/)
 * [JSDoc](https://jsdoc.app/)
+* [Jest](https://jestjs.io/)
 * [PAI Code Examples](https://github.com/ULL-ESIT-PAI-2024-2025/PAI-class-code-examples)
